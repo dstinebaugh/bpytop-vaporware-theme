@@ -1,0 +1,90 @@
+#Vaporware theme for bpytop - mapped from Hermes Desktop vaporware-theme plugin
+#80s retro vaporwave: teal on midnight, lavender text, hot pink accents
+#Source palette: /home/daniel/.hermes/plugins/vaporware-theme/desktop/plugin.js
+
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
+
+# All graphs and meters can be gradients
+# For single color graphs leave "mid" and "end" variable empty.
+# Use "start" and "end" variables for two color gradient
+# Use "start", "mid" and "end" for three color gradient
+
+# Main background - Vaporware "background" (#0a0612 midnight)
+theme[main_bg]="#0a0612"
+
+# Main text color - Vaporware "foreground" (#e6dcff lavender)
+theme[main_fg]="#e6dcff"
+
+# Title color for boxes - Vaporware "primary" (#2de2e6 teal)
+theme[title]="#2de2e6"
+
+# Highlight color for keyboard shortcuts - Vaporware "midground" (#00f0ff cyan)
+theme[hi_fg]="#00f0ff"
+
+# Background color of selected item in processes box - Vaporware "secondary" (#2a1d40 dark purple)
+theme[selected_bg]="#2a1d40"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#e6dcff"
+
+# Color of inactive/disabled text - Vaporware "mutedForeground" (#8a9bb0)
+theme[inactive_fg]="#8a9bb0"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+# - Vaporware terminal "blue" (#7b61ff)
+theme[proc_misc]="#7b61ff"
+
+# Cpu box outline color - Vaporware "border" (#1f5f63 dark teal)
+theme[cpu_box]="#1f5f63"
+
+# Memory/disks box outline color
+theme[mem_box]="#1f5f63"
+
+# Net up/down box outline color
+theme[net_box]="#1f5f63"
+
+# Processes box outline color
+theme[proc_box]="#1f5f63"
+
+# Box divider line and small boxes line color
+theme[div_line]="#1f5f63"
+
+# Temperature graph colors - teal to cyan to hot pink (cool to hot)
+theme[temp_start]="#2de2e6"
+theme[temp_mid]="#00f0ff"
+theme[temp_end]="#ff3860"
+
+# CPU graph colors - teal to cyan gradient
+theme[cpu_start]="#2de2e6"
+theme[cpu_mid]="#00f0ff"
+theme[cpu_end]="#7af8ff"
+
+# Mem/Disk free meter - teal-green (free space = good)
+theme[free_start]="#1fb5a8"
+theme[free_mid]="#2de2e6"
+theme[free_end]="#39ff14"
+
+# Mem/Disk cached meter - purple gradient
+theme[cached_start]="#7b61ff"
+theme[cached_mid]="#a594ff"
+theme[cached_end]="#ff2bd6"
+
+# Mem/Disk available meter - cyan gradient
+theme[available_start]="#2de2e6"
+theme[available_mid]="#00f0ff"
+theme[available_end]="#7af8ff"
+
+# Mem/Disk used meter - hot magenta to destructive pink (used space = heat)
+theme[used_start]="#ff2bd6"
+theme[used_mid]="#ff3860"
+theme[used_end]="#ff6b8b"
+
+# Download graph colors - cyan
+theme[download_start]="#00f0ff"
+theme[download_mid]="#7af8ff"
+theme[download_end]="#7dff5c"
+
+# Upload graph colors - purple to magenta
+theme[upload_start]="#7b61ff"
+theme[upload_mid]="#a594ff"
+theme[upload_end]="#ff2bd6"
